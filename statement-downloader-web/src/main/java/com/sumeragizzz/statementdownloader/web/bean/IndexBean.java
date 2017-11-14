@@ -4,11 +4,17 @@ import java.io.Serializable;
 import java.util.Date;
 
 import javax.faces.view.ViewScoped;
+import javax.inject.Inject;
 import javax.inject.Named;
+
+import com.sumeragizzz.statementdownloader.biz.service.CrawlerService;
 
 @ViewScoped
 @Named
 public class IndexBean implements Serializable {
+
+    @Inject
+    private CrawlerService crawlerService;
 
     private String status;
 
@@ -16,6 +22,7 @@ public class IndexBean implements Serializable {
 
     public String execute() {
         now = new Date();
+        crawlerService.crawl();
         return null;
     }
 
