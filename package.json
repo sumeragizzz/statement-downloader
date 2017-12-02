@@ -1,0 +1,23 @@
+{
+  "name": "statement-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "gapps": "gapps",
+    "upload": "gapps upload",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumeragizzz/statement-downloader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumeragizzz/statement-downloader/issues"
+  },
+  "homepage": "https://github.com/sumeragizzz/statement-downloader#readme",
+  "devDependencies": {
+    "node-google-apps-script": "^1.2.0"
+  }
+}
