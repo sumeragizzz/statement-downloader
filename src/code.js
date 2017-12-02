@@ -13,7 +13,8 @@ function main() {
         }
     };
 
-    var response = UrlFetchApp.fetch(LOGIN_URL, options);
+//    var response = UrlFetchApp.fetch(LOGIN_URL, options);
 
-    Logger.log(response);
+//    Logger.log(response);
+
 }
